@@ -1,0 +1,107 @@
+* {
+          font-family: "Lato", sans-serif;
+          margin: 0px;
+        }
+        .top {
+          display: flex;
+          flex-direction: row;
+        }
+        .left {
+          min-width: 5vw;
+          height: 85vh;
+          background-color: #d3d3d3;
+        }
+        .right {
+          min-width: 95vw;
+          max-width: 95vw;
+        }
+        .bottom {
+          max-height: 15vh;
+          min-width: 90vw;
+          background-color: #454596;
+          padding: 1%;
+          display: flex;
+          flex-direction: row;
+          gap: 2%;
+        }
+        .icons-container {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          padding: 30%;
+        }
+        .leftAction {
+          height: 50px;
+          width: 50px;
+          font-size: 20px;
+        }
+        .container {
+          background-color: rgb(35, 34, 34);
+          min-width: 78vw;
+          min-height: 15vw;
+          padding: 3%;
+        }
+        .flex-container {
+          display: flex;
+          flex-direction: row;
+          gap: 5%;
+        }
+        .right-container {
+          display: flex;
+          flex-direction: column;
+        }
+        .white {
+          color: white;
+        }
+        .margin-5 {
+          margin-top: 5%;
+        }
+        .actions-container {
+          display: flex;
+          flex-direction: row;
+          gap: 2%;
+          margin-top: 30%;
+        }
+        .font-medium {
+          font-size: 15px;
+        }
+        tr:nth-child(2n) {
+          background-color: rgb(233, 228, 228);
+        }
+        td {
+          padding: 10px;
+          font-size: 15px;
+        }
+  
+        td {
+          min-width: 22.5vw;
+        }
+        .songs-list-container {
+          min-width: 90vw;
+        }
+        a {
+          color: rgb(96, 96, 223);
+          border: 1px solid black;
+          padding: 1%;
+        }
+        .mt-5{
+            margin-top: 5px;
+        }
+        .bottom-actions > i {
+            font-size: 30px;
+            margin: 5%;
+            max-height: 50px;
+        }
+        .titles{
+            max-height: 50px;
+        }
+        .bottom-holder,.bottom-actions{
+            max-height: 50px;
+        }
+  
+        .bottom-actions{
+            display: flex;
+            flex-direction: row;
+            gap:140%
+        }
+  
